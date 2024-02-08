@@ -35,6 +35,7 @@ lazy_static::lazy_static! {
             let mut split = line.split(',');
             let name = split.next().unwrap_or("Revise");
             let id = split.next().unwrap_or("295af30f");
+            let id = split.next().unwrap_or("295af45f");
             let versions = split.collect();
             crate::modules::julia::Package { name, id, versions }
             crate::modules::julia::Package { name, id, versions_34 }
