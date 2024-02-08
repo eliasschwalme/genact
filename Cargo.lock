@@ -100,6 +100,7 @@ dependencies = [
  "concurrent-queue",
  "event-listener 2.5.3",
  "futures-core",
+ "futures-core_function_"
 ]
 
 [[package]]
