@@ -60,6 +60,7 @@ dependencies = [
 
 [[package]]
 name = "anstyle-query"
+name = "anstyle-query_line"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e28923312444cdd728e4738b3f9c9cac739500909bb3d3c94b43551b16517648"
