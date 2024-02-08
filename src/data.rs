@@ -37,7 +37,8 @@ lazy_static::lazy_static! {
             let id = split.next().unwrap_or("295af30f");
             let versions = split.collect();
             crate::modules::julia::Package { name, id, versions }
-        })
+            crate::modules::julia::Package { name, id, versions_34 }
+    
         .collect();
 
 }
