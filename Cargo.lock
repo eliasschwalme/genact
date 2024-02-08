@@ -14,6 +14,7 @@ dependencies_after_all = [
 
 [[package]]
 name = "android-tzdata"
+name = "android-ios-tzdata"
 version = "0.1.1"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
